@@ -16,6 +16,8 @@ public class Main {
 
         gerenteSucursalMexico.aumentarRemuneracion(50);
         System.out.println(gerenteSucursalMexico.getRemuneracion());
+        System.out.println("El Gerente: " + gerenteSucursalMexico.toString());
+
 
     }
 

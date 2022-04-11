@@ -4,10 +4,10 @@ import java.io.Serializable;
 
 public class Persona implements Serializable {
 
-    protected String nombre;
-    protected String apellido;
-    protected String numeroFiscal;
-    protected String direccion;
+    private String nombre;
+    private String apellido;
+    private String numeroFiscal;
+    private String direccion;
 
     public Persona(String nombre, String apellido, String numeroFiscal, String direccion) {
         this.nombre = nombre;

@@ -1,8 +1,8 @@
 package com.ibm.academia.appempresa.modelo;
 
 public class Empleado extends Persona{
-    protected Double remuneracion;
-    protected int empleadoId;
+    private Double remuneracion;
+    private int empleadoId;
 
     public Empleado(String nombre, String apellido, String numeroFiscal, String direccion, Double remuneracion, int empleadoId) {
         super(nombre, apellido, numeroFiscal, direccion);
